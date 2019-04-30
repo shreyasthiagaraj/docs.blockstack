@@ -1,5 +1,5 @@
 ---
-layout: learn
+layout: zerotut
 permalink: /:collection/:path.html
 image: /assets/img/zero-to-dapp.png
 ---
