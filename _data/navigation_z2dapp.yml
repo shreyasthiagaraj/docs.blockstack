@@ -1,12 +1,12 @@
 # Navbar menu navigation links
-- title: One
-  url: develop/zero_to_dapp_1
+- title: 1. About DApps
+  url: zero_to_dapp_1
 
-- title: Two
-  url: develop/zero_to_dapp_2
+- title: 2. Platform Introduction
+  url: zero_to_dapp_2
 
-- title: Three
-  url: develop/zero_to_dapp_3
+- title: 3. Customize the Code
+  url: zero_to_dapp_3
 
-- title: Four
-  url: develop/zero_to_dapp_4
+- title: 4. List and Fund
+  url: zero_to_dapp_4

@@ -1,7 +1,8 @@
 ---
-layout: learn
+layout: tutorial
 permalink: /:collection/:path.html
 image: /assets/img/zero-to-dapp.png
+toc: true
 ---
 # 2 Learn about the Blockstack platform (Windows)
 {:.no_toc}

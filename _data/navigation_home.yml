@@ -13,7 +13,7 @@
 - title: Build Blockchain Applications
   desc: Learn how to build a blockchain application with Blockstack. Work through web and mobile tutorials.
   icon: code
-  doc: develop/zero_to_dapp_1
+  doc: develop/dapp_principles
 
 - title: Use the Naming Service
   desc: Work with namespaces, zone files, and other advanced BNS topics.

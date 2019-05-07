@@ -1,7 +1,8 @@
 ---
-layout: zerotut
+layout: tutorial
 permalink: /:collection/:path.html
 image: /assets/img/zero-to-dapp.png
+toc: true
 ---
 # 1 About DApps and App Mining
 {:.no_toc}

@@ -1,7 +1,8 @@
 ---
-layout: learn
+layout: tutorial
 permalink: /:collection/:path.html
 image: /assets/img/zero-to-dapp.png
+toc: true
 ---
 # 4 List and fund thru App.co
 {:.no_toc}
