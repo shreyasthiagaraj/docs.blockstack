@@ -114,7 +114,7 @@
       {
          "category": "appusers",
          "question": "What is the Blockstack Browser?",
-         "answer": "<p>The Blockstack Browser is a DApp used to create and manage Blockstack identities. To a user, it looks just like another tab in a standard browser. From the Blockstack Browser tab, you can find DApps to try, update settings related to your identity and storage &ndash; and much more. </p> <p>Developers use the Blockstack Browser to handle login requests from DApps. From a Blockstack DApp, a user chooses the Log In with Blockstack button. Clicking this button sends users to a Blockstack Browser dialog. This dialog asks users to allow the DApp to access their data. </p>"
+         "answer": "<p>The Blockstack Browser is a DApp used to create and manage Blockstack identities. To a user, it looks just like another tab in a standard browser. From the Blockstack Browser tab, you can find DApps to try, update settings related to your identity and storage &ndash; and much more.</p> <p>Developers use the Blockstack Browser to handle login requests from DApps. From a Blockstack DApp, a user chooses the Log In with Blockstack button. Clicking this button sends users to a Blockstack Browser dialog. This dialog asks users to allow the DApp to access their data.</p>"
       },
       {
          "category": "appusers",
@@ -279,7 +279,7 @@
       {
          "category": "appminers",
          "question": "How is App Mining different from cryptocurrency mining?",
-         "answer": "<p>Traditionally the term mining in cryptocurrency refers to the process of contributing compute resources to the network and earning a distributed of new tokens as a reward. On the Stacks blockchain, developers can <q>mine</q> by contributing apps to the ecosystem and making applications the community wants. </p>"
+         "answer": "<p>Traditionally the term mining in cryptocurrency refers to the process of contributing compute resources to the network and earning a distributed of new tokens as a reward. On the Stacks blockchain, developers can <q>mine</q> by contributing apps to the ecosystem and making applications the community wants.</p>"
       },
       {
          "category": "appminers",
@@ -334,7 +334,7 @@
       {
          "category": "appminers",
          "question": "Do I have to Hunt my app on Product Hunt?",
-         "answer": "<p>As part of the ranking process, there is an assessment by App Reviewer Product Hunt via their community vote and their internal team vote. More info on the algorithm, <a href='https://docs.blockstack.org/develop/mining_intro.html'>here</a>. The Hunt launch will have an impact on your final ranking, as you can see in the algorithm breakdown. Here is <a href='https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399'>more info</a> on Product Hunt launch best practices. In general, sharing and responsiveness to questions are encouraged, and it might help your community reception if you choose to hunt the app yourself. If not, Product Hunt can hunt your App as well.</p><p>Apps will be hunted every 6 months, so if you hunted your app in a past month, as long as you are in the 6 month time window, you will not have to Hunt the app. </p>"
+         "answer": "<p>As part of the ranking process, there is an assessment by App Reviewer Product Hunt via their community vote and their internal team vote. More info on the algorithm, <a href='https://docs.blockstack.org/develop/mining_intro.html'>here</a>. The Hunt launch will have an impact on your final ranking, as you can see in the algorithm breakdown. Here is <a href='https://blog.producthunt.com/how-to-launch-on-product-hunt-7c1843e06399'>more info</a> on Product Hunt launch best practices. In general, sharing and responsiveness to questions are encouraged, and it might help your community reception if you choose to hunt the app yourself. If not, Product Hunt can hunt your App as well.</p><p>Apps will be hunted every 6 months, so if you hunted your app in a past month, as long as you are in the 6 month time window, you will not have to Hunt the app.</p>"
       },
       {
          "category": "appminers",
@@ -349,17 +349,17 @@
       {
          "category": "appminers",
          "question": "Is App Mining Decentralized?",
-         "answer": "<p>Given the pioneering nature of the program, we are being careful and starting in a somewhat centralized fashion that allows for necessary diligence in the early stages, for example, the current pilot phase. We don’t want to bake in assumptions that have not been validated. The downside of this protection is some level of centralization, which we are taking steps to reduce over time. The pilot is the just the first step in creating a fair system that can be relied upon by founders and contribute to the growth of the Blockstack ecosystem. </p> <p>Blockstack plans to move along a path to decentralization and App Mining will too. It is important to highlight that initially, App Mining will purposely have a few points of centralization highlighted below, which can become decentralized over time (all plans are subject to change, legal approval, and applicable law). </p> <h5>Electing app reviewers:</h5> <p>Currently, Blockstack PBC elects app reviewers. In the future, we anticipate gradually transitioning to community elections of App Reviewers. </p> <h5>Registering apps:</h5> <p>Currently, registering apps is regulated by Blockstack PBC through app.co/mining. In the future, we anticipate transitioning to publishing on designated Blockstack namespaces via our public blockchain. </p> <h5>Collecting votes:</h5> <p>Currently, votes are aggregated by Blockstack PBC and administered via App.co. In the future, we expect that votes will be collected through the protocol itself. </p> <h5>Issuing money:</h5> <p>Currently, payouts are issued by Blockstack PBC. In the future, we expect that payouts will over time be generated and deployed on an automated basis. </p>"
+         "answer": "<p>Given the pioneering nature of the program, we are being careful and starting in a somewhat centralized fashion that allows for necessary diligence in the early stages, for example, the current pilot phase. We don’t want to bake in assumptions that have not been validated. The downside of this protection is some level of centralization, which we are taking steps to reduce over time. The pilot is the just the first step in creating a fair system that can be relied upon by founders and contribute to the growth of the Blockstack ecosystem.</p> <p>Blockstack plans to move along a path to decentralization and App Mining will too. It is important to highlight that initially, App Mining will purposely have a few points of centralization highlighted below, which can become decentralized over time (all plans are subject to change, legal approval, and applicable law).</p> <h5>Electing app reviewers:</h5> <p>Currently, Blockstack PBC elects app reviewers. In the future, we anticipate gradually transitioning to community elections of App Reviewers.</p> <h5>Registering apps:</h5> <p>Currently, registering apps is regulated by Blockstack PBC through app.co/mining. In the future, we anticipate transitioning to publishing on designated Blockstack namespaces via our public blockchain.</p> <h5>Collecting votes:</h5> <p>Currently, votes are aggregated by Blockstack PBC and administered via App.co. In the future, we expect that votes will be collected through the protocol itself.</p> <h5>Issuing money:</h5> <p>Currently, payouts are issued by Blockstack PBC. In the future, we expect that payouts will over time be generated and deployed on an automated basis.</p>"
       },
       {
          "category": "appminers",
          "question": "How is App Mining protected against bribery, collusion, or gaming?",
-         "answer": "<p>We are taking potential threats very seriously and hope to create a fair system that continuously reinforces trust within our community for the long term. </p> <p>We are currently consulting with a team of 3 Ph.D. Game Theorist professors from Princeton University and New York University to determine thoughtful methods to protect App Mining from being attacked and/or abused. Our goal is to be as transparent as possible, but App Reviewers may reserve the right to keep some secrets in their formula to avoid bribes and gaming, and the algorithm that combines all of these score may be tuned in the future to account for new learnings. </p> <p>The Game Theorists are working with us to create a technical paper and broader documents like blogs explaining the overall mechanism.</p>"
+         "answer": "<p>We are taking potential threats very seriously and hope to create a fair system that continuously reinforces trust within our community for the long term.</p> <p>We are currently consulting with a team of 3 Ph.D. Game Theorist professors from Princeton University and New York University to determine thoughtful methods to protect App Mining from being attacked and/or abused. Our goal is to be as transparent as possible, but App Reviewers may reserve the right to keep some secrets in their formula to avoid bribes and gaming, and the algorithm that combines all of these score may be tuned in the future to account for new learnings.</p> <p>The Game Theorists are working with us to create a technical paper and broader documents like blogs explaining the overall mechanism.</p>"
       },
       {
          "category": "appminers",
          "question": "How do I propose and follow changes to App Mining?",
-         "answer": "<p>The App Mining <a href='https://github.com/blockstack/app-mining' target='_blank'>GitHub repo</a> is the best place to propose changes to App Mining. </p>"
+         "answer": "<p>The App Mining <a href='https://github.com/blockstack/app-mining' target='_blank'>GitHub repo</a> is the best place to propose changes to App Mining.</p>"
       },
       {
          "category": "appminers",
@@ -369,7 +369,7 @@
       {
          "category": "coredevs",
          "question": "What is Blockstack Core?",
-         "answer": "<p>Blockstack Core is the reference implementation of the Blockstack protocol described in our white paper. Today, it consists of these components:</p> <ul><li>Blockstack Core: A Python backend service which reads transactions from the Stacks blockchain. This blockchain enables the Stacks Token (STX) and Blockstack Naming service.</li> <li>Atlas: A peer network for communicating data about the Blockstack Naming System (BNS).</li> <li>Blockstack API: A service for indexing the data stored by Blockstack Core and making it available in a performant way.</li> </ul><p>The next version of the Stacks Blockchain is under active development in the Rust programming language and employs our Tunable Proof-of-Work consensus algorithm and a unique scaling solution that enable individual apps to create their own app chains. </p>"
+         "answer": "<p>Blockstack Core is the reference implementation of the Blockstack protocol described in our white paper. Today, it consists of these components:</p> <ul><li>Blockstack Core: A Python backend service which reads transactions from the Stacks blockchain. This blockchain enables the Stacks Token (STX) and Blockstack Naming service.</li> <li>Atlas: A peer network for communicating data about the Blockstack Naming System (BNS).</li> <li>Blockstack API: A service for indexing the data stored by Blockstack Core and making it available in a performant way.</li> </ul><p>The next version of the Stacks Blockchain is under active development in the Rust programming language and employs our Tunable Proof-of-Work consensus algorithm and a unique scaling solution that enable individual apps to create their own app chains.</p>"
       },
       {
          "category": "coredevs",
@@ -716,6 +716,11 @@
             "question": "What is the current circulating supply of Stacks?",
             "answer": "<p>Currently, 866,827,880 tokens of the 1.32B genesis block have been distributed. As of June 10, 2019 approximately 229,229,868 of those 866,827,880 distributed tokens have been released from their time locks.  The remainder continue to be subject to time locks that release approximately monthly over approximately two, three or four year periods.  If all tokens offered in the Reg A and concurrent Reg S offerings are sold, allocated and distributed, the total number of Stacks tokens distributed will be 1,089,161,213. For more details, please refer to the public filing with the SEC in our <a href='http://stackstoken.com/circular'>offering circular</a>.</p>"
              },
+         {
+         "category": "tokens",
+         "question": "I tried to login to CoinList with my AngelList account and now I can’t sign in. How do I access my account??",
+         "answer": "<p>If you previously set up your CoinList account by logging in with your AngelList credentials and you are having issues signing into your account, you must create a separate password for Coinlist. You can do this logging into <a href='https://stackstoken.net/login' target='_blank>>stackstoken.net</a> and selecting <strong>Forgot your Password?</strong>.</p> <p>Next, please enter the email associated with your AngelList account and select <strong>Send recovery email<strong>. This will then allow you to create a unique password for your CoinList account.</p> <p>Going forward, you can access your CoinList account by logging in with your email and new password.</p>"
+      },
          {
             "category": "tokens",
             "question": "How do I get help about the Stacks token from a person?",
