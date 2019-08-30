@@ -2,13 +2,15 @@
 layout: learn
 permalink: /:collection/:path.html
 ---
-# Start the Stacks Block project
+# Generate the Stacks Block project
 
-TBD
+In this section, you generate a StackIt project using the Blockstack app generator. The B
 
 ## Generate an starter React project
 
-TBD 
+Create a React application template.
+
+1. npm create yo blockstack:react 
 
 ## Review the basic Auth
 

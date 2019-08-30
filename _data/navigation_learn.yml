@@ -19,11 +19,13 @@
 
 - title: Stack Blocks Tutorial
   docs:
-  - develop/stacks_block_auth
-  - develop/stacks_block_storage
-  - develop/stacks_block_radiks
-  - develop/stacks_block_collections
-  - develop/stacks_block_contracts
+  - develop/stackit/introduction
+  - develop/stackit/authentication
+  - develop/stackit/storage
+  - develop/stackit/radiks
+  - develop/stackit/collections
+  - develop/stackit/contracts
+
 
 - title: Try a tutorial
   docs:
