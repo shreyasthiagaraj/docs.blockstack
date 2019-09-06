@@ -16,7 +16,7 @@ Create a React application template.
 
 TBD
 
-## Add the Authentication screen
+## Add the different parts of the screen
 
 TBD
 

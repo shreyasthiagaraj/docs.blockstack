@@ -4,14 +4,19 @@ permalink: /:collection/:path.html
 ---
 # Introduction to the Stackit tutorial
 
-This tutorial is a progressive React tutorial.  You will start from a template and build a multi-page React application. The final application will make use of all the features of the Blockstack platform.
+In this tutorial, you start from a template and build a multi-page React application. The final Stackit app  makes use of all the features of the Blockstack platform. 
 
-##  How to use this tutorial
+## Try the Stackit App
 
-Explain the repository layout
+Before you begin, you should learn what you are building.
 
 
-## Get the prerequisities
+## Set up your environment with the prerequisites
+
+A browser.
+npm and yo
+an ascii editor
+
 
 <details><summary markdown='span'>macOS
 </summary>
@@ -31,7 +36,7 @@ Explain the repository layout
      * Sub bullets
 </details>
 
-<details><summary markdown='span'>Linux
+<details><summary markdown='span'>Ubuntu
 </summary>
 
   1. A numbered
