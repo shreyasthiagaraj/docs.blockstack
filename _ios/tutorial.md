@@ -56,7 +56,7 @@ development environment on your workstation, you can use that and skip this
 step. However, you may need to adjust the remaining instructions for your
 environment.
 
-Follow the installation instructions to [download and XCode](https://developer.apple.com/xcode/) for your operating system.
+Follow the installation instructions to [download and install XCode](https://developer.apple.com/xcode/) for your operating system.
 Depending on your network connection, this can take between 15-30 minutes.
 
 ### Do you have Node.js?
