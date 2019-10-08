@@ -86,13 +86,13 @@ you have installed CocoaPods.
 
 ```bash
 $ pod --version
-1.6.0.beta.2
+1.8.1
 ```
 
 If you don't have the CocoaPods beta version, install it:
 
 ```bash
-sudo gem install cocoapods -v 1.6.0.beta.2
+sudo gem install cocoapods -v 1.8.1
 ```
 
 ## Build the Blockstack hello-world
@@ -335,12 +335,27 @@ lines after.
 
 	 ```bash
 	 $ pod install
+<<<<<<< Updated upstream
 	 Analyzing dependencies
 	 Downloading dependencies
 	 Installing Blockstack (0.2.0)
 	 Installing CryptoSwift (0.11.0)
 	 Generating Pods project
 	 Integrating client project
+=======
+     $ pod install
+     Analyzing dependencies
+     Downloading dependencies
+     Installing Blockstack (0.7.2)
+     Installing CryptoSwift (0.15.0)
+     Installing Nimble (8.0.4)
+     Installing PromisesObjC (1.2.8)
+     Installing PromisesSwift (1.2.8)
+     Installing Quick (2.2.0)
+     Installing STRegex (2.1.0)
+     Generating Pods project
+     Integrating client project
+>>>>>>> Stashed changes
 
 	 [!] Please close any current XCode sessions and use `hello-blockstack-ios.xcworkspace` for this project from now on.
 	 Sending stats
