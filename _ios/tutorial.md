@@ -335,14 +335,6 @@ lines after.
 
 	 ```bash
 	 $ pod install
-<<<<<<< Updated upstream
-	 Analyzing dependencies
-	 Downloading dependencies
-	 Installing Blockstack (0.2.0)
-	 Installing CryptoSwift (0.11.0)
-	 Generating Pods project
-	 Integrating client project
-=======
      $ pod install
      Analyzing dependencies
      Downloading dependencies
@@ -355,7 +347,6 @@ lines after.
      Installing STRegex (2.1.0)
      Generating Pods project
      Integrating client project
->>>>>>> Stashed changes
 
 	 [!] Please close any current XCode sessions and use `hello-blockstack-ios.xcworkspace` for this project from now on.
 	 Sending stats
