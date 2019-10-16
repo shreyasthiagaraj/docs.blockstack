@@ -481,14 +481,14 @@ All iOS applications require a splash page.
 	  ![](images/splash.png)
 
 
-### Update the Main.storyboard
+### Update the LaunchScreen.storyboard
 
-Rather than have you build up your own UI, this section has you copy and paste a layout into the XML file source code for the **Main.storyboard** file.
+Rather than have you build up your own UI, this section has you copy and paste a layout into the XML file source code for the **LaunchScreen.storyboard** file.
 
-1.  Select the `Main.storyboard` file.
+1.  Select the `LaunchScreen.storyboard` file.
 2.  Choose **Open As > Source Code**
 
-    The `blockstack-example/blockstack-example/Base.lproj/Main.storyboard` file
+    The `hello-blockstack-ios/Base.lproj/LaunchScreen.storyboard` file
     defines the graphical elements. Some elements are required before you can
     functionality to your  code.
 
@@ -541,7 +541,7 @@ Rather than have you build up your own UI, this section has you copy and paste a
 
 In this section, you edit the `ViewController.swift` file using the storyboard as a starting point.
 
-1. Select the **Main.storyboard** and choose **Open As > Interface Builder - storyboard**.
+1. Select the **LaunchScreen.storyboard** and choose **Open As > Interface Builder - storyboard**.
 
 	 ![](images/main-storyboard.png)
 
@@ -566,7 +566,7 @@ In this section, you edit the `ViewController.swift` file using the storyboard a
     @IBOutlet var signInButton: UIButton!
     ```
 
-    And XCode has added two outlines to the `Main.storyboard` source.
+    And XCode has added two outlines to the `LaunchScreen.storyboard` source.
 
     ```xml
     <connections>
