@@ -253,12 +253,12 @@ application directory.
 
 ## Build the hello-blockstack-ios
 
-Now, you build an iOS application that can access and run your Blockstack web
+Now, you build an iOS application that can work with your Blockstack web
 application on a mobile device.
 
 ### Create an XCode Project
 
-This tutorial uses XCode 9.3, you can use another version but be aware that some
+This tutorial uses XCode 11.1, you can use another version but be aware that some
 menu items and therefore these procedures may be differœent on your version.
 
 1. Launch the XCode interface.
@@ -269,6 +269,7 @@ menu items and therefore these procedures may be differœent on your version.
    ![](images/single-view-app.png)
 
 5. **Choose options for your new project** for your project.
+    _NOTE:_ Ensure `Storyboard` is selected for `User Interface`. 
 
 	 ![](images/choose-new-options.png)
 
@@ -329,21 +330,19 @@ lines after.
 
 ### Install Blockstack SDK and open the pod project
 
-1. Close your new XCode project.
-2. Change to the root of your `hello-blockstack-ios` project.
-3. Initialize the project with Cocoapods.
+1. Close your new XCode project if you haven't already.
+2. In te terminal, change to the root of your `hello-blockstack-ios` project.
+3. Initialize the project with Cocoapods via the `pod install` command.
 
 	 ```bash
 	 $ pod install
      $ pod install
      Analyzing dependencies
      Downloading dependencies
-     Installing Blockstack (0.7.2)
+     Installing Blockstack (1.0.1)
      Installing CryptoSwift (0.15.0)
-     Installing Nimble (8.0.4)
      Installing PromisesObjC (1.2.8)
      Installing PromisesSwift (1.2.8)
-     Installing Quick (2.2.0)
      Installing STRegex (2.1.0)
      Generating Pods project
      Integrating client project
@@ -403,94 +402,16 @@ the user back to your iOS app. In this example, you use `myblockstackapp://`.
 
 	 ![](images/url-type.png)
 
-### Add a splash screen
+### Update the Main.storyboard
 
-All iOS applications require a splash page.
+Rather than have you build up your own UI in the interface builder, this section has you copy and paste a layout into the XML file source code for the **Main.storyboard** file.
 
-1. Select `Assets.xcassets`
-2. Move your cursor into the area below Appicon.
-3. Right click and choose **New Image Set**
-
-   ![](images/image-set-0.png)
-
-4. Download the Blockstack icon.
-
-   ![](images/blockstack-icon.png)
-
-5. Drag the downloaded file into the **3X** position in your new Images folder.
-
-    ![](images/image-set-1.png)
-
-6. Select the `LaunchScreen.storyboard`.
-7. Choose **Open As > Source Code**.
-
-	![](images/open-as.png)
-
-8. Replace the content of the `<scenes>` element with the following:
-
-   ```
-   <scenes>
-       <!--View Controller-->
-       <scene sceneID="EHf-IW-A2E">
-           <objects>
-               <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                   <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                       <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                       <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                       <subviews>
-                           <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="SpU-hA-y2f">
-                               <rect key="frame" x="155.5" y="273" width="64" height="64"/>
-                           </imageView>
-                           <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello Blockstack iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfj-A6-BZM">
-                               <rect key="frame" x="108" y="432" width="158" height="21"/>
-                               <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                               <nil key="textColor"/>
-                               <nil key="highlightedColor"/>
-                           </label>
-                       </subviews>
-                       <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                       <constraints>
-                           <constraint firstItem="Wfj-A6-BZM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AZy-qf-xHq"/>
-                           <constraint firstItem="Wfj-A6-BZM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="412" id="SwP-qV-1RP"/>
-                           <constraint firstItem="SpU-hA-y2f" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XdI-Db-fDo"/>
-                           <constraint firstItem="SpU-hA-y2f" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="253" id="xc5-po-W1E"/>
-                       </constraints>
-                       <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                   </view>
-               </viewController>
-               <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-           </objects>
-           <point key="canvasLocation" x="52" y="374.66266866566718"/>
-       </scene>
-   </scenes>
-   ```
-
-9. Immediately after scenes but before the close of the `</document>` tag add the following `<resources>`.
-
-   ```xml
-		   <resources>
-         <image name="Image" width="64" height="64"/>
-		   </resources>
-		</document>
-   ```
-
-10. Choose **Run > Run app** in the emulator.
-
-	  The emulator now contains a new splash screen.
-
-	  ![](images/splash.png)
-
-
-### Update the LaunchScreen.storyboard
-
-Rather than have you build up your own UI, this section has you copy and paste a layout into the XML file source code for the **LaunchScreen.storyboard** file.
-
-1.  Select the `LaunchScreen.storyboard` file.
+1.  Select the `Main.storyboard` file.
 2.  Choose **Open As > Source Code**
 
-    The `hello-blockstack-ios/Base.lproj/LaunchScreen.storyboard` file
-    defines the graphical elements. Some elements are required before you can
-    functionality to your  code.
+    The `hello-blockstack-ios/Base.lproj/Main.storyboard` file
+    defines the graphical elements, and their functionality will be defined in 
+    a respective `.swift` file.
 
 3. Within the `<viewController>`  element, replace the existing `<view>` subelement with the following:
 
@@ -541,7 +462,7 @@ Rather than have you build up your own UI, this section has you copy and paste a
 
 In this section, you edit the `ViewController.swift` file using the storyboard as a starting point.
 
-1. Select the **LaunchScreen.storyboard** and choose **Open As > Interface Builder - storyboard**.
+1. Select the **Main.storyboard** and choose **Open As > Interface Builder - storyboard**.
 
 	 ![](images/main-storyboard.png)
 
@@ -566,7 +487,7 @@ In this section, you edit the `ViewController.swift` file using the storyboard a
     @IBOutlet var signInButton: UIButton!
     ```
 
-    And XCode has added two outlines to the `LaunchScreen.storyboard` source.
+    And XCode has added two outlines to the `Main.storyboard` source.
 
     ```xml
     <connections>
@@ -654,7 +575,7 @@ this application in your mobile add for now. In XCode, do the following;
        } else {
            print("Currently signed out so signing in.")
            // Address of deployed example web app
-           Blockstack.shared.signIn(redirectURI: "https://heuristic-brown-7a88f8.netlify.com/redirect.html",
+           Blockstack.shared.signIn(redirectURI: URL(string: "https://heuristic-brown-7a88f8.netlify.com/redirect.html")!,
                                     appDomain: URL(string: "https://heuristic-brown-7a88f8.netlify.com")!) { authResult in
                                        switch authResult {
                                        case .success(let userData):
